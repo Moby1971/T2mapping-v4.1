@@ -68,8 +68,10 @@ gui/adapters/gatherDisplayParams.m
 +t2mapp/+util/elastixBundle.m
 +t2mapp/+util/hex2rgb.m
 +t2mapp/+util/imagePosition.m
++t2mapp/+util/maskElement.m
 +t2mapp/+util/naviaColorMap.m
 +t2mapp/+util/patientPosition.m
++t2mapp/+util/pixelSize.m
 +t2mapp/+util/resourcePath.m
 +t2mapp/+util/rgb2hex.m
 +t2mapp/+util/robustDisplayMax.m
