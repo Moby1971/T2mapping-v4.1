@@ -83,3 +83,47 @@ gui/adapters/gatherDisplayParams.m
 +t2mapp/defaultRecoParams.m
 +t2mapp/defaultRegParams.m
 gui/adapters/AppReporter.m
+
+# Third-party code, P-coded on 2026-09-15 like the rest: the BART interface, the
+# elastix registration tools, unRing and the water/fat wfutils1 code, including the
+# old-style @B and @Bspline classes. The .p beside each ships; the .m stays local.
+functions/registration/registration_tools/code/changeParameterInElastixFile.m
+functions/registration/registration_tools/code/elastix.m
+functions/registration/registration_tools/code/elastixYAML2struct.m
+functions/registration/registration_tools/code/elastix_paramStruct2txt.m
+functions/registration/registration_tools/code/elastix_parameter_read.m
+functions/registration/registration_tools/code/elastix_parameter_write.m
+functions/registration/registration_tools/code/invertElastixTransform.m
+functions/registration/registration_tools/code/mhd_read.m
+functions/registration/registration_tools/code/mhd_read_header.m
+functions/registration/registration_tools/code/mhd_read_volume.m
+functions/registration/registration_tools/code/mhd_write.m
+functions/registration/registration_tools/code/readTransformedPointsFile.m
+functions/registration/registration_tools/code/readWholeTextFile.m
+functions/registration/registration_tools/code/struct2varargin.m
+functions/registration/registration_tools/code/transformix.m
+functions/registration/registration_tools/code/updateTransformFileDirFields.m
+functions/registration/registration_tools/code/validateElastixParam.m
+functions/registration/registration_tools/code/writePointsFile.m
+functions/unRing/unRing.m
+functions/bart/WSLPathCorrection.m
+functions/bart/bart.m
+functions/bart/readcfl.m
+functions/bart/writecfl.m
+functions/waterfat/wfutils1/SDS_BSpline_Basis.m
+functions/waterfat/wfutils1/SDS_Create_BSpline.m
+functions/waterfat/wfutils1/calculate_chemical_shift_encoding_matrix.m
+functions/waterfat/wfutils1/coilCombine.m
+functions/waterfat/wfutils1/error_check.m
+functions/waterfat/wfutils1/estimate_water_fat.m
+functions/waterfat/wfutils1/fnlCg.m
+functions/waterfat/wfutils1/fw3pluspoint.m
+functions/waterfat/wfutils1/init.m
+functions/waterfat/wfutils1/update_field_map.m
+functions/waterfat/wfutils1/@Bspline/Bspline.m
+functions/waterfat/wfutils1/@Bspline/Overlap_Wavelet.m
+functions/waterfat/wfutils1/@Bspline/ctranspose.m
+functions/waterfat/wfutils1/@Bspline/mtimes.m
+functions/waterfat/wfutils1/@B/B.m
+functions/waterfat/wfutils1/@B/ctranspose.m
+functions/waterfat/wfutils1/@B/mtimes.m
