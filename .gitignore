@@ -37,6 +37,7 @@ gui/adapters/gatherDisplayParams.m
 +t2mapp/+fit/waterFatImagesMethod1.m
 +t2mapp/+io/defaultSettings.m
 +t2mapp/+io/estimatedEchoSpacing.m
++t2mapp/+io/exportBidsFcn.m
 +t2mapp/+io/exportDicomT2.m
 +t2mapp/+io/exportDicomT2dcm.m
 +t2mapp/+io/exportGifT2.m
@@ -52,6 +53,9 @@ gui/adapters/gatherDisplayParams.m
 +t2mapp/+io/scannerEchoTimes.m
 +t2mapp/+io/sortNonRegularLUT3D.m
 +t2mapp/+io/userFolder.m
++t2mapp/+reco/voxelSizeOf.m
++t2mapp/+reco/mppcaWindow.m
++t2mapp/+reco/mppcaDenoise.m
 +t2mapp/+reco/CSreco.m
 +t2mapp/+reco/PCAdenoise.m
 +t2mapp/+reco/circtukey2D.m
