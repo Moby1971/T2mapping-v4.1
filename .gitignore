@@ -57,6 +57,7 @@ gui/adapters/gatherDisplayParams.m
 +t2mapp/+reco/mppcaWindow.m
 +t2mapp/+reco/mppcaDenoise.m
 +t2mapp/+reco/CSreco.m
++t2mapp/+reco/llrBlockSize.m
 +t2mapp/+reco/PCAdenoise.m
 +t2mapp/+reco/circtukey2D.m
 +t2mapp/+reco/circtukey3D.m
