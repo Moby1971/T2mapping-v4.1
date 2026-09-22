@@ -164,7 +164,7 @@
 (WriteResultImage "true")
 
 // The pixel type and format of the resulting deformed moving image
-(ResultImagePixelType "short")
+(ResultImagePixelType "float")
 (ResultImageFormat "mhd")
 
 
