@@ -71,6 +71,7 @@ gui/adapters/gatherDisplayParams.m
 +t2mapp/+util/bartVersionAtLeast.m
 +t2mapp/+util/dicomOrientation.m
 +t2mapp/+util/elastixBundle.m
++t2mapp/+util/scanNumber.m
 +t2mapp/+util/hex2rgb.m
 +t2mapp/+util/imagePosition.m
 +t2mapp/+util/maskElement.m
